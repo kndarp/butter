@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/butter.png';
+import googleLogin from './images/google-login.png';
 import './App.css';
 
 class App extends Component {
@@ -8,17 +9,11 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <h1>Butter</h1>
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            because, there's none in the fridge!
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <a href='google.com'><img src={googleLogin} className="google-btn" alt="Log in with Google" /></a>
         </header>
       </div>
     );
