@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './images/butter.png';
 import googleLogin from './images/google-login.png';
 import './App.css';
+import Button from '@material-ui/core/Button'
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
           <p>
             because, there's none in the fridge!
           </p>
-          <a href='google.com'><img src={googleLogin} className="google-btn" alt="Log in with Google" /></a>
+          <Button />
+          <img src={googleLogin} className="google-btn" alt="Log in with Google" />
         </header>
       </div>
     );
